@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>  
+    </script>
+</head>
+
+<body>
+    <form action="Untitled-1.php" method="post" name="puanmatik">
+        <table border="2" style="width: 75%; height: 400px;">
+            <tr>
+                <th colspan="4">
+                    DGS PUANMATİK
+                </th>
+            </tr>
+            <tr>
+                <td colspan="2"></td>
+                <td style="text-align: center;">DOĞRU</td>
+                <td style="text-align: center;">YANLIŞ</td>
+            </tr>
+            <tr>
+                <td colspan="2">SAYISAL TESTİ</td>
+                <td><input type="text" name="sayisaldogru" style="margin-left: 50px; height: 100%; background-color: bisque"></td>
+                <td><input type="text" name="sayisalyanlis"  style="margin-left: 50px; height: 100%; background-color: bisque;"></td>
+            </tr>
+            <tr>
+                <td colspan="2">SÖZEL TESTİ</td>
+                <td><input type="text" name="sozeldogru" style="margin-left: 50px; height: 100%; background-color: bisque;"></td>
+                <td><input type="text" name="sozelyanlis" style="margin-left: 50px; height: 100%; background-color: bisque;"></td>
+            </tr>
+            <tr>
+                <td colspan="2">ÖN LİSANS BAŞARI PUANI</td>
+                <td><input  type="text" name="obpnot"style="margin-left: 50px; height: 100%; background-color: bisque;" required="required"></td>
+                <TD></TD>
+            </tr>
+            <tr>
+                <td colspan="2">ALANINIZ</td>
+                <td colspan="2" style="text-align: center; ">
+                    <input type="radio" name="alan" id="" value="1">sayisal
+                    <input type="radio" name="alan" id="" value="2">sozel
+                    <input type="radio" name="alan" id="" value="3">esit agirlik
+                </td>
+            <tr>
+                <td colspan="2">2019 ÖNCESİNDE DGS İLE PROGRAMA YERLEŞTİNİZMİ ?</td>
+
+                <td><input type="radio" name="yerlestinmi" id="" value="2">EVET</td>
+                <td><input type="radio" name="yerlestinmi" id="" value="1">HAYİR</td>
+            </tr>
+            <tr>
+                <td colspan="4" style="height: 60px; text-align: center;"><input type="submit" class="hesaplabtn" value="HESAPLA"
+                        style="height: 100%;width: 50%; background-color: green;"><input type="reset" value="TEMİZLE"
+                        style="height:100%;width:50%; background-color:red;"></td>
+
+
+            </tr>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>
